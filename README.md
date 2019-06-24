@@ -1,6 +1,6 @@
 <h1>Face Recognition</h1>
-<p>A React Single page application with Node/Express Server and a postgreSQL Database.
-Start the app: Run npm startJust Register or Login ( you can do it with a fake Email )
+<p>A React Single page application with an Node/Express Server and a postgreSQL Database.
+Start the app: Run npm start, then Register or Login ( you can do it with a fake Email )
 and add an imagelink.
 It highlites the face with a box arround it.</p> 
 
