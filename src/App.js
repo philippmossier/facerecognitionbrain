@@ -17,7 +17,8 @@ import Clarifai from 'clarifai';
 // ImageLinkForm : Middle --> insert link and detect button
 // FaceRecognition : Displays your detected image with all the magic behind the scenes
 
-//Face Recognition API for more security move this to the backend instead of frontend
+//Face Recognition API 
+// for more security move the API key to the backend instead of frontend
 const app = new Clarifai.App({
 	apiKey: 'b570219188c44524bc5e5df0f089f315'
 });
@@ -108,7 +109,7 @@ class App extends Component {
 			.predict(Clarifai.FACE_DETECT_MODEL, this.state.input)
 			.then(response => {
 				if (response) {
-					fetch("http://localhost:3000/image", {
+					fetch("https://polite-eds-79454.herokuapp.com/image", {
 						method: "put",
 						headers: { "Content-Type": "application/json" },
 						body: JSON.stringify({    // just need to send user.id when user logins 
@@ -138,7 +139,7 @@ class App extends Component {
 
 
 
-	//Particles background effects need to be on top of Layout
+	//Particles background effects need to be on top of the components
 	render() {
 		return (
 			<div className="App">
