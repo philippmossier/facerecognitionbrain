@@ -1,7 +1,7 @@
 Face Recognition
 =========================================
 
-Frontend build with React, Backend Server with node.js adn a postgreSQL Database living on Heroku.(Backend code is in face-recognition-api repository)
+Frontend build with React, Backend Server with node.js and a postgreSQL Database living on Heroku.(Backend code is in face-recognition-api repository)
 After you register/login ( you can use a fake email ) you can add an image adress and the app highlites the face with a box arround it.
 
 How to start the APP
