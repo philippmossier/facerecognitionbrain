@@ -2,7 +2,6 @@ Face Recognition
 =========================================
 
 An APP built with React and a Node.js Server plus a postgreSQL Database living on Heroku.(Backend code is in face-recognition-api repository)
-How to run the APP: Clone this repository (frontend Code) Run npm start, then Register or Login ( you can do it with a fake Email )
 After you register/login ( you can use a fake email ) you can add an image adress and the app highlites the face with a box arround it.
 
 How to start the APP
