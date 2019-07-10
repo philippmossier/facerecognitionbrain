@@ -20,6 +20,6 @@ What i learned
 * Create a Database with postgreSQL.
 * Refactor a Server with Controllers and advanced functions.
 * Connect API to a React App.
-* Deploy Server, Database, and Frontend React APP on Heroku
+* Deploy Server, Database, and Frontend React APP on Heroku.
 
 
