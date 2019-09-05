@@ -15,11 +15,11 @@ How to start the APP
 What i learned
 ----------------------------
 
-* Create a Server with Node, Express, and some npm packages ( knex body parser, cors ). 
-* Hash a password with bcrypt.
-* Create a Database with postgreSQL.
+* Create a Server with Express.js and some npm packages ( knex body parser, cors ). 
+* Hashed a password with bcrypt.
+* Login/SignIn with postgreSQL.
 * Refactor a Server with Controllers and advanced functions.
 * Connect API to a React App.
-* Deploy Server, Database, and Frontend React APP on Heroku
+* Deployed Server, Database, and Frontend React APP on Heroku
 
 
